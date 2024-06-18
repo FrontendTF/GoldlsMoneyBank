@@ -1,0 +1,14 @@
+﻿<Window x:Class="GoldlsMoneyBank.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GoldlsMoneyBank"
+        mc:Ignorable="d"
+        Title="Goldlsmoneybank" Height="450" Width="800" ResizeMode="NoResize" Loaded="Window_Loaded">
+    <Grid Margin="10" Background="LightSteelBlue">
+        <DataGrid Name="dtGridView" Margin="10" IsReadOnly="True" Width="600"/>
+
+
+    </Grid>
+</Window>
